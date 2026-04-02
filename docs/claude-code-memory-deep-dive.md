@@ -240,7 +240,7 @@ External memory systems accessed via MCP (Model Context Protocol) tools. Claude 
 
 | Solution | Storage | Embeddings | Self-hosted? |
 |---|---|---|---|
-| **Claude Recall** (ours) | Postgres + pgvector | LiteLLM (text-embedding-3-small) | Yes (Docker) |
+| **Claude Recall** (ours) | SQLite + numpy | Any OpenAI-compatible API | Yes (local) |
 | **Mem0** | Cloud | Cloud | No (SaaS) |
 | **mem0-mcp-selfhosted** | Qdrant + Neo4j | Ollama (local) | Yes |
 | **OpenMemory MCP** | Local | Local | Yes |

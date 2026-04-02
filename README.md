@@ -12,7 +12,7 @@ AI coding assistants have a memory problem. Claude Code, for example, stores mem
 
 - **Project A can't see Project B's memories** (unless they share a parent directory)
 - **Machine A can't see Machine B's memories** (local files don't sync)
-- **No search** — memories are loaded or they're not; there's no way to query "what do I know about Atlan API quirks?"
+- **No search** — memories are loaded or they're not; there's no way to query "what do I know about API quirks?"
 - **200-line limit** — only the first 200 lines of the memory index load per session
 
 Claude Recall solves all four:
